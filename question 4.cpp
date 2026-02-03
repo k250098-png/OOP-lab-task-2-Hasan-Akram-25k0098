@@ -15,9 +15,7 @@ public:
         count = 0;
     }
 
-    // ==========================
-    // Setters (modify private data)
-    // ==========================
+   
     void set_item(int index, string name)
     {
         if (index >= 0 && index < 50)
@@ -35,9 +33,7 @@ public:
         count = c;
     }
 
-    // ==========================
-    // Getters (access private data)
-    // ==========================
+  
     string get_item(int index)
     {
         if (index >= 0 && index < count)
@@ -59,9 +55,7 @@ public:
         return count;
     }
 
-    // ==========================
-    // Functions for menu actions
-    // ==========================
+
     void add_item()
     {
         if (count >= 50)
@@ -222,3 +216,4 @@ int main()
 
     return 0;
 }
+
